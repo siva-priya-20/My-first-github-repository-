@@ -1,5 +1,0 @@
-java 
-python
-dbms
-sql
-react js
