@@ -1,0 +1,17 @@
+name: finalproject
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Welcome message
+        run: echo :Github Actions project started"
+
+      - name: Success Message
+        run: echo "Build Completed Succesfully !"
+        
+    
